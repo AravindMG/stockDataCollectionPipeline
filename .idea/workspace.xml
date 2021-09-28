@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8afa255a-98ab-4de5-ad34-2c0814bc2ad6" name="Default Changelist" comment="Added AAPL stock data">
+    <list default="true" id="8afa255a-98ab-4de5-ad34-2c0814bc2ad6" name="Default Changelist" comment="Added TSLA,VOO,NIO stock data">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yahooFinance.py" beforeDir="false" afterPath="$PROJECT_DIR$/yahooFinance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunManager" selected="Python.yahooFinance">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -95,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632734865079</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added TSLA,VOO,NIO stock data">
+      <created>1632735734516</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632735734516</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added AAPL stock data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added AAPL stock data" />
+    <MESSAGE value="Added TSLA,VOO,NIO stock data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TSLA,VOO,NIO stock data" />
   </component>
 </project>
