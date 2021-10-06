@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8afa255a-98ab-4de5-ad34-2c0814bc2ad6" name="Default Changelist" comment="Added TSLA,VOO,NIO stock data">
+    <list default="true" id="8afa255a-98ab-4de5-ad34-2c0814bc2ad6" name="Default Changelist" comment="unable to create dataframe yet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yahooFinance.py" beforeDir="false" afterPath="$PROJECT_DIR$/yahooFinance.py" afterDir="false" />
     </list>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632735734516</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="unable to create dataframe yet">
+      <created>1632822136827</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632822136827</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added AAPL stock data" />
     <MESSAGE value="Added TSLA,VOO,NIO stock data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TSLA,VOO,NIO stock data" />
+    <MESSAGE value="unable to create dataframe yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="unable to create dataframe yet" />
   </component>
 </project>

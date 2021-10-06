@@ -1,16 +1,6 @@
 import yfinance as yf
-import pyspark
-from pyspark.sql import SparkSession
-from pyspark.sql.types import StructField, StructType, StringType, DoubleType
+import pandas as pd
 
-appName = "Stock dataframe"
-master = "local"
-
-# Create Spark session
-spark = SparkSession.builder \
-    .appName(appName) \
-    .master(master) \
-    .getOrCreate()
 
 def msft_stock():
     msft = yf.Ticker("MSFT")
@@ -52,15 +42,14 @@ def nio_stock():
     return nio_li
 
 
-def create_df():
-    msft_data = msft_stock()
-    # tsla_data = tsla_stock()
-    # aapl_data = aapl_stock()
-    # nio_data = nio_stock()
-    columns = ['symbol', 'recommendationKey', 'targetLowPrice', 'targetMedianPrice', 'currentPrice', 'targetMeanPrice']
-    stock_dataframe = spark.createDataFrame([(msft_data,)], columns)
-    stock_dataframe.show()
+def creating_pandas_dataframe():
+    list_msft = msft_stock()
+    list_aapl = aapl_stock()
+    list_tsla = tsla_stock()
+    list_nio = nio_stock()
+    df = pd.DataFrame([list_msft, list_aapl, list_tsla, list_nio], columns=['symbol', 'recommendationKey', 'targetLowPrice', 'targetMedianPrice', 'currentPrice', 'targetMeanPrice'])
+    print(df.head())
 
 
 if __name__ == '__main__':
-    create_df()
+    creating_pandas_dataframe()
