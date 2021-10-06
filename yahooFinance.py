@@ -1,5 +1,6 @@
 import yfinance as yf
 import pandas as pd
+import datetime as dt
 
 
 def msft_stock():
@@ -48,9 +49,15 @@ def creating_pandas_dataframe():
     list_tsla = tsla_stock()
     list_nio = nio_stock()
     df = pd.DataFrame([list_msft, list_aapl, list_tsla, list_nio], columns=['symbol', 'recommendationKey', 'targetLowPrice', 'targetMedianPrice', 'currentPrice', 'targetMeanPrice'])
-    print(df.head())
+    return df
+
+
+def adding_timeStamp():
+    add_timeStamp = creating_pandas_dataframe()
+    add_timeStamp['dateTime'] = pd.to_datetime('now').strftime("%Y-%m-%d")
+
+    print(add_timeStamp)
 
 
 if __name__ == '__main__':
-    creating_pandas_dataframe()
-# Add dateTime to the dataframe
+    adding_timeStamp()
