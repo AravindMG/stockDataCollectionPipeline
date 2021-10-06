@@ -54,7 +54,6 @@ def creating_pandas_dataframe():
 def adding_timeStamp():
     add_timeStamp = creating_pandas_dataframe()
     add_timeStamp['dateTime'] = pd.to_datetime('now').strftime("%Y-%m-%d")
-
     print(add_timeStamp)
 
 
