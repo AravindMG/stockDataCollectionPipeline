@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8afa255a-98ab-4de5-ad34-2c0814bc2ad6" name="Default Changelist" comment="dateTime column added to dataFrame">
+    <list default="true" id="8afa255a-98ab-4de5-ad34-2c0814bc2ad6" name="Default Changelist" comment="removing unwanted imports">
       <change beforePath="$PROJECT_DIR$/yahooFinance.py" beforeDir="false" afterPath="$PROJECT_DIR$/yahooFinance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633511642902</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="removing unwanted imports">
+      <created>1633512224322</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633512224322</updated>
+    </task>
+    <task id="LOCAL-00008" summary="removing unwanted imports">
+      <created>1633512257990</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633512257990</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +167,7 @@
     <MESSAGE value="Pandas dataframe created successfully" />
     <MESSAGE value="Add dateTime to the df" />
     <MESSAGE value="dateTime column added to dataFrame" />
-    <option name="LAST_COMMIT_MESSAGE" value="dateTime column added to dataFrame" />
+    <MESSAGE value="removing unwanted imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing unwanted imports" />
   </component>
 </project>

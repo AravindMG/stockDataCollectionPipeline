@@ -59,3 +59,4 @@ def adding_timeStamp():
 
 if __name__ == '__main__':
     adding_timeStamp()
+# Running this application with AWS Lambda (https://towardsdatascience.com/python-packages-in-aws-lambda-made-easy-8fbc78520e30)
