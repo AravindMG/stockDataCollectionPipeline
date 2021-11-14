@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8afa255a-98ab-4de5-ad34-2c0814bc2ad6" name="Default Changelist" comment="removing unwanted imports">
-      <change beforePath="$PROJECT_DIR$/yahooFinance.py" beforeDir="false" afterPath="$PROJECT_DIR$/yahooFinance.py" afterDir="false" />
+    <list default="true" id="8afa255a-98ab-4de5-ad34-2c0814bc2ad6" name="Default Changelist" comment="comment added with link to run the following code in AWS Lambda">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633512257990</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="comment added with link to run the following code in AWS Lambda">
+      <created>1633512751482</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633512751482</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +175,7 @@
     <MESSAGE value="Add dateTime to the df" />
     <MESSAGE value="dateTime column added to dataFrame" />
     <MESSAGE value="removing unwanted imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing unwanted imports" />
+    <MESSAGE value="comment added with link to run the following code in AWS Lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment added with link to run the following code in AWS Lambda" />
   </component>
 </project>
