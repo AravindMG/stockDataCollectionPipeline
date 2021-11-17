@@ -17,6 +17,13 @@ def aapl_stock():
     aapl_li = list(map(aaplInfo.get, keys))
     return aapl_li
 
+def meta_stock():
+    meta = yf.Ticker("FB")
+    metaInfo = meta.info
+    keys = ['symbol', 'recommendationKey', 'targetLowPrice', 'targetMedianPrice', 'currentPrice', 'targetMeanPrice']
+    meta_li = list(map(metaInfo.get, keys))
+    return meta_li
+
 
 def tsla_stock():
     tsla = yf.Ticker("TSLA")
@@ -45,9 +52,10 @@ def nio_stock():
 def creating_pandas_dataframe():
     list_msft = msft_stock()
     list_aapl = aapl_stock()
+    list_meta = meta_stock()
     list_tsla = tsla_stock()
     list_nio = nio_stock()
-    df = pd.DataFrame([list_msft, list_aapl, list_tsla, list_nio], columns=['symbol', 'recommendationKey', 'targetLowPrice', 'targetMedianPrice', 'currentPrice', 'targetMeanPrice'])
+    df = pd.DataFrame([list_msft, list_aapl, list_meta, list_tsla, list_nio], columns=['symbol', 'recommendationKey', 'targetLowPrice', 'targetMedianPrice', 'currentPrice', 'targetMeanPrice'])
     return df
 
 

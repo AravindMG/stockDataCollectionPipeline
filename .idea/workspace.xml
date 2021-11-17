@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8afa255a-98ab-4de5-ad34-2c0814bc2ad6" name="Default Changelist" comment="comment added with link to run the following code in AWS Lambda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yahooFinance.py" beforeDir="false" afterPath="$PROJECT_DIR$/yahooFinance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633512751482</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="comment added with link to run the following code in AWS Lambda">
+      <created>1636870238480</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636870238480</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
